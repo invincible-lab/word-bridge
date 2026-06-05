@@ -1,5 +1,5 @@
 // Backend API bilan bog'lanish funksiyalari
-const BASE = process.env.REACT_APP_API_URL || "http://127.0.0.1:8765";
+const BASE = process.env.REACT_APP_API_URL || "https://word-bridge-api.onrender.com";
 
 async function request(path, options = {}) {
   const token = localStorage.getItem("token");
